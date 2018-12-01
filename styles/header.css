@@ -1,0 +1,43 @@
+//*.nav {
+  display: grid;
+
+  border: 1px solid black;
+
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-rows: 0.2 1fr 0.2fr;
+}
+
+.nav__logo {
+  display: flex;
+
+  justify-content: center;
+}
+
+.nav__menu {
+  display: flex;
+
+  justify-content: space-between;
+  grid-column: 2;
+}
+
+.nav__daytheme {
+  display: flex;
+
+  justify-content: center;
+  grid-column: 3;
+}
+
+*//
+
+.logo {
+  border: 1px solid black;
+  border-radius: 4;
+}
+
+.logo {
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background:rgb(124, 129, 126);
+  margin: 1em 1em 1em 1em;
+}

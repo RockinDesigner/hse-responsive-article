@@ -1,0 +1,12 @@
+//*footer {
+  display: flex;
+
+  margin-right: 50px;
+  margin-left: 50px;
+
+  border: 1px solid green;
+
+  justify-content: space-around;
+
+}
+*//
