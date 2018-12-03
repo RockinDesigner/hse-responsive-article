@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width">
   <title></title>
   <link rel="stylesheet" href="styles/layout.css">
-  <script src="jquery-3.3.1.min.js"></script>
-  <script src="menu.js"></script>
+  <script src="javascripts/jquery-3.3.1.min.js"></script>
+  <script src="javascripts/menu.js"></script>
 </head>
 <body>
   <header>
     <div class="logo">
     </div>
-    <button class="hamburger">&#9776;</button>
+    <button class="menu__button">&#9776;</button>
     <button class="cross">&#735;</button>
+    <div class="menu__classic">
+      <a href="#"><li>ОСНОВНОЕ</li></a>
+      <a href="#"><li>ЛУЧШЕЕ</li></a>
+      <a href="#"><li>О ЧЕЛОВЕКЕ</li></a>
+      <a href="#"><li>ХОЧУ БОЛЬШЕ</li></a>
+    </div>
   </header>
   <main>
-    <div class="menu">
+    <div class="menu__hamburger">
       <ul>
         <a href="#"><li>ОСНОВНОЕ</li></a>
         <a href="#"><li>ЛУЧШЕЕ</li></a>
@@ -60,13 +66,47 @@
   </main>
   <footer>
     <div class="footer">
-      <a href="footer__bio">1</a>
-      <a href="footer__bio">2</a>
-      <a href="footer__bio">3</a>
-      <a href="footer__bio">4</a>
-      <a href="footer__bio">5</a>
-      <a href="footer__bio">6</a>
+      <div class="footer__welcome">
+        <p>Всегда рады сотрудничеству!</p>
+        <p>#HSEADCGANG</p>
+      </div>
+      <div class="footer__section">
+        <a href="#" class="footer__bio">
+          <div class="footer__bio__pic"></div>
+          <p>Денис</p>
+          <p>Любит ходить к твоей  маме</p>
+        </a>
+        <a href="#" class="footer__bio">
+          <div class="footer__bio__pic"></div>
+          <p>Аня</p>
+          <p>Раз, раз, раз — это хардбасс</p>
+        </a>
+      </div>
+      <div class="footer__section">
+        <a href="#" class="footer__bio">
+          <div class="footer__bio__pic"></div>
+          <p>Валерос</p>
+          <p>Спотыкается на ровном месте</p>
+        </a>
+        <a href="#" class="footer__bio">
+          <div class="footer__bio__pic"></div>
+          <p>Катя</p>
+          <p>Что-нибудь еще клевое придумайте</p>
+        </a>
+      </div>
+      <div class="footer__section">
+        <a href="#" class="footer__bio">
+          <div class="footer__bio__pic"></div>
+          <p>Яна</p>
+          <p>Разъебёт всех, если надо</p>
+        </a>
+        <a href="#" class="footer__bio">
+          <div class="footer__bio__pic"></div>
+          <p>Рома</p>
+          <p>Король мира (может быть, нескольких)</p>
+        </a>
     </div>
+    <p>made by #HSEADCGANG</p>
   </footer>
 
 
