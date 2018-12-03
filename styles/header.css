@@ -126,14 +126,6 @@ header {
   color:#666;
 }
 
-.glyphicon-home {
-  margin: 0 auto;
-  margin-top: 5px;
-
-  color: white;
-
-  font-size:1.5em;
-}
 
 header {
   display:inline-block;
@@ -150,5 +142,34 @@ a {
 @media (min-width: 768px) {
   .menu__button {
     display: none;
+  }
+  .menu__button {
+    display: none;
+  }
+
+  .menu__hamburger {
+    display: none;
+  }
+
+  .menu__classic {
+    display: flex;
+
+    list-style-type: none;
+
+  }
+
+  .menu__classic li {
+    margin-right: 2em;
+    margin-left: 1em;
+  }
+  header {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .logo {
+   margin-left: 2em;
+
   }
 }
