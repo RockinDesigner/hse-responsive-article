@@ -2,9 +2,9 @@ $( document ).ready(function() {
 
 $( ".cross" ).hide();
 $( ".menu" ).hide();
-$( ".hamburger" ).click(function() {
+$( ".menu__button" ).click(function() {
 $( ".menu" ).slideToggle( "slow", function() {
-$( ".hamburger" ).hide();
+$( ".menu__button" ).hide();
 $( ".cross" ).show();
 });
 });
@@ -12,7 +12,7 @@ $( ".cross" ).show();
 $( ".cross" ).click(function() {
 $( ".menu" ).slideToggle( "slow", function() {
 $( ".cross" ).hide();
-$( ".hamburger" ).show();
+$( ".menu__button" ).show();
 });
 });
 
