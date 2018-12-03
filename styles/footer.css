@@ -63,7 +63,15 @@ a:visited {
     display: grid;
 
     grid-template-areas:
+    ". footer__welcome ."
     "section1 section1 section1"
-    "section2 section2 section2"
+    "section2 section2 section2";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
+  .footer__welcome {
+    grid-area: footer__welcome;
+  }
+
+
 }
