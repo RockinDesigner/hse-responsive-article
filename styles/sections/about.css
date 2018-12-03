@@ -79,7 +79,15 @@ h4 {
 }
 
 .about__images {
-  padding: 0 20px 0 18px;
+  width: 283px;
+ height: 304px;
+ left: 17px;
+ top: 673px;
+
+ display: flex;
+ margin-left: 18px;
+ margin-bottom: 36px;
+
 
 }
 
@@ -87,8 +95,8 @@ h4 {
   position: absolute;
   width: 209px;
   height: 207px;
-  padding: 0 73px 96px 0;
-  z-index: auto;
+  left: 18px;
+  top: 674px;
 
   background-image: url(https://pp.userapi.com/c851228/v851228160/611cb/RcYFmy-kFv8.jpg);
   background-position: center;
@@ -96,10 +104,11 @@ h4 {
 }
 
 .about__image2 {
-  width: 209px;
+  position: absolute;
+  width: 207px;
   height: 207px;
-  padding: 97px 0 0 76px;
-  z-index: 1;
+  left: 93px;
+  top: 770px;
 
   background-image: url(https://pp.userapi.com/c851528/v851528160/5a7b5/RqjIOdWxMVA.jpg);
   background-position: center;
