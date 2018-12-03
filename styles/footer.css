@@ -9,7 +9,8 @@
   flex-wrap: wrap;
 }
 
-.footer__bio {
+
+.footer__section>a {
   display: flex;
   flex-direction: column;
 
@@ -56,4 +57,33 @@ a {
 
 a:visited {
   color: white;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+
+    grid-template-areas:
+    ". footer__welcome ."
+    "footer__bio1 footer__bio2 footer__bio3"
+    "section2 section2 section2";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .footer__welcome {
+    display: grid;
+
+    grid-area: footer__welcome;
+    justify-self: center;
+  }
+
+  .footer__welcome>* {
+    justify-content: center;
+  }
+
+  .footer__bio1 {
+    grid-area: footer__bio1;
+  }
+
+
 }
