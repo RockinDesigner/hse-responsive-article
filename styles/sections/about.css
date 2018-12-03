@@ -1,0 +1,107 @@
+h1, h2, h3 {
+  text-align: center;
+}
+
+section .about {
+  margin-bottom: 36px;
+}
+
+.first-screen__image {
+  height: 350px;
+
+  background: linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)), url(https://files.slack.com/files-pri/TEDNKKYLU-FEFG80Y00/image_from_ios.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.first-screen__heading {
+  position: absolute;
+  z-index: 1;
+
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+
+  margin-top: 134px;
+
+  color: #FFFFFF;
+}
+
+.first-screen__letter {
+  position: absolute;
+  z-index: auto;
+
+  font-family: Roboto Slab;
+  font-size: 288px;
+
+  color: rgba(246, 192, 0, 0.3);
+}
+.right-line {
+  display: flex;
+  justify-content: flex-end;
+  padding: 26px 0;
+}
+
+.number {
+  font-family: Roboto Slab;
+  font-size: 12px;
+
+  width: 40.27px;
+  border-bottom: 2px solid;
+
+  color: #000000;
+}
+
+h2 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 24px;
+  height: 32px;
+
+  color: #000000;
+}
+
+h3 {
+  font-family: Roboto Slab;
+  font-size: 24px;
+  height: 32px;
+
+  color: #F6C000;
+}
+
+h4 {
+  padding: 0 21.11px 26px 17.11px;
+  font-family: Roboto;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.about__images {
+  padding: 0 20px 0 18px;
+
+}
+
+.about__image1 {
+  position: absolute;
+  width: 209px;
+  height: 207px;
+  padding: 0 73px 96px 0;
+  z-index: auto;
+
+  background-image: url(https://pp.userapi.com/c851228/v851228160/611cb/RcYFmy-kFv8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about__image2 {
+  width: 209px;
+  height: 207px;
+  padding: 97px 0 0 76px;
+  z-index: 1;
+
+  background-image: url(https://pp.userapi.com/c851528/v851528160/5a7b5/RqjIOdWxMVA.jpg);
+  background-position: center;
+  background-size: cover;
+}
