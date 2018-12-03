@@ -2,6 +2,9 @@ h1, h2, h3 {
   text-align: center;
 }
 
+section .about {
+  margin-bottom: 36px;
+}
 
 .first-screen__image {
   height: 350px;
@@ -73,4 +76,32 @@ h4 {
   font-size: 14px;
 
   color: #000000;
+}
+
+.about__images {
+  padding: 0 20px 0 18px;
+
+}
+
+.about__image1 {
+  position: absolute;
+  width: 209px;
+  height: 207px;
+  padding: 0 73px 96px 0;
+  z-index: auto;
+
+  background-image: url(https://pp.userapi.com/c851228/v851228160/611cb/RcYFmy-kFv8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about__image2 {
+  width: 209px;
+  height: 207px;
+  padding: 97px 0 0 76px;
+  z-index: 1;
+
+  background-image: url(https://pp.userapi.com/c851528/v851528160/5a7b5/RqjIOdWxMVA.jpg);
+  background-position: center;
+  background-size: cover;
 }
