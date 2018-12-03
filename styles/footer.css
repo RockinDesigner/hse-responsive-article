@@ -57,3 +57,13 @@ a {
 a:visited {
   color: white;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+
+    grid-template-areas:
+    "section1 section1 section1"
+    "section2 section2 section2"
+  }
+}
