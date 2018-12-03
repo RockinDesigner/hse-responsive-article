@@ -1,0 +1,33 @@
+
+
+.first-screen__image {
+  height: 350px;
+
+  background: linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)), url(https://files.slack.com/files-pri/TEDNKKYLU-FEFG80Y00/image_from_ios.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.first-screen__heading {
+  position: absolute;
+  z-index: 1;
+
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+
+  margin-top: 134px;
+
+  color: #FFFFFF;
+}
+
+.first-screen__letter {
+  position: absolute;
+  z-index: auto;
+
+  font-family: Roboto Slab;
+  font-size: 288px;
+
+  color: rgba(246, 192, 0, 0.3);
+}

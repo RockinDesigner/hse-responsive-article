@@ -7,6 +7,8 @@
 @import "sections/quotes.css";
 @import "sections/more-info.css";
 @import "footer.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
 
 * {
   -webkit-font-smoothing: antialiased;
