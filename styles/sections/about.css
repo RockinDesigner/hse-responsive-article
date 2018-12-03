@@ -1,3 +1,6 @@
+h1, h2, h3 {
+  text-align: center;
+}
 
 
 .first-screen__image {
@@ -30,4 +33,44 @@
   font-size: 288px;
 
   color: rgba(246, 192, 0, 0.3);
+}
+.right-line {
+  display: flex;
+  justify-content: flex-end;
+  padding: 26px 0;
+}
+
+.number {
+  font-family: Roboto Slab;
+  font-size: 12px;
+
+  width: 40.27px;
+  border-bottom: 2px solid;
+
+  color: #000000;
+}
+
+h2 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 24px;
+  height: 32px;
+
+  color: #000000;
+}
+
+h3 {
+  font-family: Roboto Slab;
+  font-size: 24px;
+  height: 32px;
+
+  color: #F6C000;
+}
+
+h4 {
+  padding: 0 21.11px 26px 17.11px;
+  font-family: Roboto;
+  font-size: 14px;
+
+  color: #000000;
 }
