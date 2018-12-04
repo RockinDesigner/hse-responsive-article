@@ -19,6 +19,14 @@
   background-size: cover;
 
 }
+.base-2 {
+  background:linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)),url(../../images/more-info_bg_item-2.jpg), #C4C4C4;
+  background-size: cover;
+}
+.base-3 {
+  background:linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)),url(../../images/more-info_bg_item-3.jpg), #C4C4C4;
+  background-size: cover;
+}
 .more-items__base:first-of-type {
   margin: 0;
 }

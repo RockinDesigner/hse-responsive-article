@@ -19,7 +19,6 @@ align-items: center;
   right: 0%;
 }
 .distinction h1 {
-width: 117px;
 font-family: 'Roboto Slab',serif;
 font-style: normal;
 font-size: 36px;
@@ -28,10 +27,8 @@ color: #000;
 }
 
 @media (min-width: 768px){
-h1 {
-width: 117px;
-font-family: 'Roboto Slab',serif;
-font-style: normal;
+.distinction h1
+{font-style: normal;
 font-size: 36px;
 margin-bottom:60px;
 color: #000000;
