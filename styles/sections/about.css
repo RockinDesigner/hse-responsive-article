@@ -1,0 +1,114 @@
+
+section .about {
+  margin-bottom: 36px;
+}
+.about_content {
+  display: flex;
+
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.first-screen__image {
+  display: flex;
+
+  height: 350px;
+
+  background: linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)), url('../../images/about__bg.jpg');
+  background-position: center;
+  background-size: cover;
+
+  justify-content: center;
+}
+
+.first-screen__heading {
+  position: absolute;
+  z-index: 1;
+
+  margin-top: 134px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.first-screen__letter {
+  position: absolute;
+  z-index: auto;
+
+  color: rgba(246, 192, 0, 0.3);
+
+  font-family: Roboto Slab;
+  font-size: 288px;
+}
+.right-line {
+  display: flex;
+
+  padding: 10px 0;
+
+  justify-content: flex-end;
+}
+
+.number {
+  width: 40.27px;
+
+  color: #000000;
+  border-bottom: 2px solid;
+
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+}
+
+.about__heading {
+  height: 32px;
+
+  color: #000000;
+
+  font-family: Roboto Slab;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.about__images {
+  top: 673px;
+  left: 17px;
+
+  display: flex;
+
+  width: 283px;
+  height: 304px;
+  margin-bottom: 36px;
+  margin-left: 18px;
+
+  align-items: center;
+
+
+}
+
+.about__image1 {
+  left: 18px;
+
+  width: 209px;
+  height: 207px;
+
+  background-image: url(https://pp.userapi.com/c851228/v851228160/611cb/RcYFmy-kFv8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about__image2 {
+  position: absolute;
+
+  width: 207px;
+  height: 207px;
+  margin: 86px 82px 0 70px;
+
+  background-image: url(https://pp.userapi.com/c851528/v851528160/5a7b5/RqjIOdWxMVA.jpg);
+  background-position: center;
+  background-size: cover;
+}

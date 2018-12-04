@@ -7,8 +7,65 @@
 @import "sections/quotes.css";
 @import "sections/more-info.css";
 @import "footer.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
 
 * {
+  box-sizing: border-box;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+p {
+  width: 250px;
+  min-width: 200px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+h1,h2,h3 {
+  text-align: center;
+
+  font-family: 'Roboto Slab', serif;
+}
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  margin: 20px 0;
+}
+h2+p {
+  margin-top: 32px;
+}
+h2:after {
+  display: block;
+
+  margin: 10px 0;
+
+  content: '*';
+
+  color: #F6C000;
+
+  font-family: inherit;
+}
+h3 {
+  font-size: 22px;
+}
+h3 {
+  margin: 20px 0;
+
+  font-size: 18px;
+}
+.number {
+  width: 40px;
+  min-width: 40px;
+
+}
+@media all and (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
 }

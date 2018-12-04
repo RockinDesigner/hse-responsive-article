@@ -1,0 +1,170 @@
+.menu__classic {
+  display: none;
+}
+
+.logo {
+  width:40px;
+  height:40px;
+  margin: 1em 1em 1em 1em;
+
+  border-radius: 50%;
+  background-image: url(..//images/logo.png);
+  background-size: contain;
+
+}
+
+header {
+	width:100%;
+	height:60px;
+
+  color: white;
+	border-bottom:1px solid #dddddd;
+	background: #121E59;
+
+	line-height:60px;
+}
+
+.menu__button {
+  position: absolute;
+  z-index: 10000000000000;
+  top: 0;
+  right: 0;
+
+  padding: 5px 15px 0px 15px;
+
+  cursor: pointer;
+
+  color:rgb(255, 255, 255);
+  border: 0;
+  outline: none;
+  background: none;
+
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 45px;
+}
+.menu__cross {
+  position: absolute;
+  z-index:10000000000000;
+  top: 0px;
+  right: 0;
+
+  padding:7px 15px 0px 15px;
+
+  cursor:pointer;
+
+  color: #999;
+  border: 0;
+  outline: none;
+  background: none;
+
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 65px;
+}
+.menu__hamburger {
+  position: absolute;
+  z-index: 1000000;
+
+  width: 100%;
+
+  text-align: center;
+
+  background: #f1f1f1;
+
+  font-size: 0.8em;
+  font-size: 12px;
+  font-weight:bold;
+}
+.menu__hamburger ul {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+  list-style-image: none;
+}
+.menu__hamburger li {
+  display: block;
+
+  padding:15px 0 15px 0;
+
+  border-bottom:#dddddd 1px solid;
+}
+.menu__hamburger li:hover {
+  display: block;
+
+  padding:15px 0 15px 0;
+
+  border-bottom:#dddddd 1px solid;
+  background:#ffffff;
+}
+.menu__hamburger ul li a {
+  margin: 0px;
+
+  text-decoration: none;
+
+  color:#666;
+}
+.menu__hamburger ul li a:hover {
+  text-decoration:none;
+
+  color: #666;
+}
+.menu__hamburger a {
+  text-decoration:none;
+
+  color:#666;
+}
+.menu__hamburger a:hover {
+  text-decoration:none;
+
+  color:#666;
+}
+
+
+header {
+  display:inline-block;
+
+  font-size:12px;
+}
+span {
+  padding-left:20px;
+}
+a {
+  color:#336699;
+}
+
+@media (min-width: 768px) {
+  .menu__button {
+    display: none;
+  }
+  .menu__button {
+    display: none;
+  }
+
+  .menu__hamburger {
+    display: none;
+  }
+
+  .menu__classic {
+    display: flex;
+
+    list-style-type: none;
+
+  }
+
+  .menu__classic li {
+    margin-right: 2em;
+    margin-left: 1em;
+  }
+  header {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .logo {
+   margin-left: 2em;
+
+  }
+}

@@ -1,0 +1,34 @@
+
+.works {
+  display: flex;
+
+  align-items: center;
+  flex-flow: column nowrap;
+
+}
+.works img {
+  width: 132px;
+}
+.works__info-items {
+  display: flex;
+}
+.works__info-items__item {
+    max-width: 100px;
+    margin: 0 20px 0 0;
+    padding: 18px 27px;
+
+    text-align: center;
+
+    color: #000;
+    border: 1px solid #000;
+}
+.works__info-items__item__types h3 {
+    font-size: 14px;
+}
+.works__info-items__item__types h3 span {
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}

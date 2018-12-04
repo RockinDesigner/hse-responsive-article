@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+}
+.quotes {
+  display: flex;
+
+  height: 310px;
+
+  text-align: center;
+
+  color: #fff; /*пиши цвет в формате HEX кода*/
+  background-color: #121E59;
+  background-image: url('../../images/moon.png');
+  background-repeat: no-repeat;
+  background-position: 180% 170%;
+
+  font-size: 2.4rem;
+
+  align-items: center;
+}
+.quotes__heading {
+  width: 230px;
+  margin: 0 auto;
+}
+.quotes__heading h1 {
+  font-family: 'Roboto Slab', serif;
+
+}
+.quotes__heading h1 span {
+  color: #fff;
+
+  font-weight: 300;
+
+}
+.quotes__background-symbol {
+  position: absolute;
+  z-index: 0;
+  left: 10%;
+
+  letter-spacing: -44px;
+
+  color: rgba(246, 192, 0, 0.5);
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 28.8rem;
+
+}
