@@ -11,10 +11,10 @@
 }
 .more-info__items__base {
   width: 280px;
+  margin-bottom;
+  text-align: center;
   padding: 18px;
   margin-bottom: 20px;
-  text-align: center;
-
   background: linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)), url(../../images/more-info_bg_item-1.png), #C4C4C4;
   background-size: cover;
 
@@ -22,7 +22,7 @@
 .more-items__base:first-of-type {
   margin: 0;
 }
-.more-
+.more-info__items__base h2 {
   font-size: 18px;
 }
 .more-info__items__base > h3 {
