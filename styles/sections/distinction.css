@@ -3,6 +3,21 @@ display: flex;
 flex-flow: column nowrap;
 align-items: center;
 }
+.distinction__heading-bg {
+  width: 323px;
+
+  position: absolute;
+
+  transform: rotate(-159deg);
+
+  z-index: -1;
+
+  left: 0;
+
+  margin: 0 auto;
+
+  right: 0%;
+}
 .distinction h1 {
 width: 117px;
 font-family: 'Roboto Slab',serif;

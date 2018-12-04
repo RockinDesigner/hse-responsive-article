@@ -57,7 +57,7 @@ section .about {
   width: 40.27px;
 
   color: #000000;
-  border-bottom: 2px solid;
+  border-bottom: 2px solid #F6C000;
 
   font-family: 'Roboto Slab', serif;
   font-size: 12px;

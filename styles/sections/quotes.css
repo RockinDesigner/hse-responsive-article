@@ -23,7 +23,11 @@ html {
   margin: 0 auto;
 }
 .quotes__heading h1 {
+  text-transform: uppercase;
+
   font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  line-height: 34px;
 
 }
 .quotes__heading h1 span {
