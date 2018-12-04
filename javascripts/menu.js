@@ -1,17 +1,17 @@
 $( document ).ready(function() {
 
-$( ".cross" ).hide();
+$( ".menu__cross" ).hide();
 $( ".menu__hamburger" ).hide();
 $( ".menu__button" ).click(function() {
 $( ".menu__hamburger" ).slideToggle( "slow", function() {
 $( ".menu__button" ).hide();
-$( ".cross" ).show();
+$( ".menu__cross" ).show();
 });
 });
 
-$( ".cross" ).click(function() {
+$( ".menu__cross" ).click(function() {
 $( ".menu__hamburger" ).slideToggle( "slow", function() {
-$( ".cross" ).hide();
+$( ".menu__cross" ).hide();
 $( ".menu__button" ).show();
 });
 });

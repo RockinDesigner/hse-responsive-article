@@ -43,7 +43,7 @@ header {
   font-weight: bold;
   line-height: 45px;
 }
-.cross {
+.menu__cross {
   position: absolute;
   z-index:10000000000000;
   top: 0px;
@@ -90,7 +90,7 @@ header {
 
   border-bottom:#dddddd 1px solid;
 }
-.menu li:hover {
+.menu__hamburger li:hover {
   display: block;
 
   padding:15px 0 15px 0;
