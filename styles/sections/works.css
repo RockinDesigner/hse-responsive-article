@@ -9,6 +9,12 @@
 .works img {
   width: 132px;
 }
+.works__content {
+  display: flex;
+
+  flex-flow: column nowrap;
+  align-items: center;
+}
 .works__info-items {
   display: flex;
 }
@@ -40,4 +46,12 @@
 }
 .works__info-items__item__types h3 span:last-of-type {
   font-size: 10px;
+}
+@media all and (min-width: 768px) {
+  .works__content {
+    flex-flow: row wrap;
+  }
+  .works__content__poster {
+    margin-right: 20px;
+  }
 }

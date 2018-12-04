@@ -70,6 +70,10 @@ h3 {
 }
 @media all and (min-width: 768px) {
   p {
+    width: auto;
+    min-width: 400px;
+    max-width: 700px;
+
     font-size: 16px;
   }
 }

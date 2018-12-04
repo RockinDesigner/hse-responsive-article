@@ -41,3 +41,6 @@
 
   color: #fff;
 }
+.more-info__items__base p {
+  min-width: 0;
+}

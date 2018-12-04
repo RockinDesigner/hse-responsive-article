@@ -2,7 +2,7 @@
 section .about {
   margin-bottom: 36px;
 }
-.about_content {
+.about__content {
   display: flex;
 
   flex-flow: column nowrap;
@@ -111,4 +111,10 @@ section .about {
   background-image: url(https://pp.userapi.com/c851528/v851528160/5a7b5/RqjIOdWxMVA.jpg);
   background-position: center;
   background-size: cover;
+}
+
+@media all and (min-width: 768px) {
+  .about__content {
+    flex-flow: row wrap;
+  }
 }
