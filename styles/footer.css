@@ -84,7 +84,7 @@
 @media (min-width: 768px) {
   .footer {
     grid-template-rows: 1fr 1fr 1fr 0.2fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
   }
 
@@ -92,7 +92,7 @@
     grid-column: 1/4;
   }
   .footer__welcome {
-    grid-column: 1/4;
+    grid-column: 0/4;
   }
 
 }

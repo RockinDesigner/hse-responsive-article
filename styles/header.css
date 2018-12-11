@@ -168,3 +168,11 @@ a {
 
   }
 }
+
+a:visited {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
