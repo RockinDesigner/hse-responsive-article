@@ -60,3 +60,8 @@ html {
 
   }
 }
+@media all and (min-width: 1400px) {
+  .quotes__heading h1 {
+    font-size: 64px;
+    line-height: 90px;
+}

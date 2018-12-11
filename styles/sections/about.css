@@ -106,6 +106,10 @@ section .about {
   background-size: cover;
 }
 
+.second {
+  display: none;
+}
+
 @media all and (min-width: 768px) {
   .about__content {
     flex-flow: row wrap;
@@ -115,13 +119,42 @@ section .about {
   }
 }
 @media all and (min-width: 1024px) {
-  .about__content__paragraph {
+  .second {
+    display: block;
+  }
+
+  .about__content__text {
     flex-basis: 57%;
   }
   .about__content {
     align-items: flex-start;
   }
-  .about__content__paragraph p {
+  .about__content__text p {
     padding: 0;
+  }
+  .about__heading {
+    margin: 40px 0;
+
+    text-align: left;
+  }
+  .about__heading::after {
+    display: none;
+  }
+  .about__images {
+        margin-right: 30px;
+
+        order: -1;
+  }
+  .first-screen__letter {
+    font-size: 30rem;
+  }
+  .about__big-letter {
+    margin: 3% 0 0 0;
+
+    color: #f6c000;
+
+    font-size: 300px;
+
+    order: 1;
   }
 }
