@@ -12,20 +12,19 @@ section .about {
 .first-screen__image {
   display: flex;
 
-  height: 350px;
+  height: 80vh;
 
   background: linear-gradient(0deg, rgba(18, 30, 89, 0.8), rgba(18, 30, 89, 0.8)), url('../../images/about__bg.jpg');
   background-position: center;
   background-size: cover;
 
+  align-items: center;
   justify-content: center;
 }
 
 .first-screen__heading {
   position: absolute;
   z-index: 1;
-
-  margin-top: 134px;
 
   text-align: center;
 
@@ -40,15 +39,17 @@ section .about {
   position: absolute;
   z-index: auto;
 
+  margin: -26px 0;
+
   color: rgba(246, 192, 0, 0.3);
 
-  font-family: Roboto Slab;
+  font-family: 'Roboto Slab', serif;
   font-size: 288px;
 }
 .right-line {
   display: flex;
 
-  padding: 10px 0;
+  padding: 20px 0;
 
   justify-content: flex-end;
 }
@@ -56,22 +57,14 @@ section .about {
 .number {
   width: 40.27px;
 
-  color: #000000;
-  border-bottom: 2px solid #F6C000;
+  color: #000;
+  border-bottom: 3px solid #F6C000;
 
   font-family: 'Roboto Slab', serif;
-  font-size: 12px;
-}
-
-.about__heading {
-  height: 32px;
-
-  color: #000000;
-
-  font-family: Roboto Slab;
-  font-size: 24px;
+  font-size: 1.6rem;
   font-weight: bold;
 }
+
 
 
 .about__images {
@@ -113,8 +106,55 @@ section .about {
   background-size: cover;
 }
 
+.second {
+  display: none;
+}
+
 @media all and (min-width: 768px) {
   .about__content {
     flex-flow: row wrap;
+  }
+  .first-screen h1 {
+    font-size: 64px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .second {
+    display: block;
+  }
+
+  .about__content__text {
+    flex-basis: 57%;
+  }
+  .about__content {
+    align-items: flex-start;
+  }
+  .about__content__text p {
+    padding: 0;
+  }
+  .about__heading {
+    margin: 40px 0;
+
+    text-align: left;
+  }
+  .about__heading::after {
+    display: none;
+  }
+  .about__images {
+        margin-right: 30px;
+
+        order: -1;
+  }
+  .first-screen__letter {
+    font-size: 30rem;
+  }
+  .about__big-letter {
+    margin: 3% 0 0 0;
+
+    color: #f6c000;
+
+    font-size: 300px;
+
+    order: 1;
   }
 }

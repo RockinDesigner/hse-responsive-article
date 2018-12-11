@@ -1,43 +1,30 @@
 .distinction {
 display: flex;
+
 flex-flow: column nowrap;
 align-items: center;
 }
 .distinction__heading-bg {
-  width: 323px;
-
   position: absolute;
-
-  transform: rotate(-159deg);
-
   z-index: -1;
-
+  right: 0%;
   left: 0;
 
+  width: 323px;
   margin: 0 auto;
 
-  right: 0%;
+  transform: rotate(-159deg);
 }
 .distinction h1 {
+margin: 60px 0;
+
+color: #f6c000;
+
 font-family: 'Roboto Slab',serif;
+font-size: 64px;
 font-style: normal;
-font-size: 36px;
-margin-bottom:60px;
-color: #000;
 }
 
-@media (min-width: 768px){
-.distinction h1
-{font-style: normal;
-font-size: 36px;
-margin-bottom:60px;
-color: #000000;
-}
-.distinction p {
-width: 280px;
-padding-left: 19px;
-font-family: 'Roboto Slab';
-font-style: normal;
-font-size: 14px;
-margin-bottom:14px;
+@media (min-width: 768px) {
+
 }
